@@ -1,0 +1,28 @@
+//font family
+$roboto: 'Roboto', sans-serif;
+$mono: 'PT Mono', monospace;
+
+//font size
+$xxx-large: 70px;
+$xx-large: 40px;
+$x-large: 30px;
+$large: 18px;
+$medium: 16px;
+
+h1 {
+  font-size: $xxx-large;
+  color: $black;
+  font-family: $mono;
+}
+
+h2 {
+  font-size: $xx-large;
+  color: $black;
+  font-family: $mono;
+}
+
+h3 {
+  font-size: $x-large;
+  color: $black;
+  font-family: $roboto;
+}

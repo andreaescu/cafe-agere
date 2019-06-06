@@ -1,0 +1,19 @@
+.navigation {
+  margin-top: 50px;
+}
+
+.navigation__logo {
+  max-width: 20%;
+}
+
+.navigation__links {
+  a {
+    color: $black;
+    font-size: $medium;
+    margin: 20px;
+    font-family: $mono;
+  }
+}
+
+.navigation__buttons {
+}
