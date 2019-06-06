@@ -4,7 +4,22 @@
   margin: 10px;
 }
 
+.btn-outline-dark {
+  border-color: $spanish-gray;
+  color: $spanish-gray;
+
+  &:hover {
+    background-color: $white;
+    color: $black;
+  }
+}
+
 .bg-agere {
   background-color: $shiny-shamrock;
   color: $white;
+
+  &:hover {
+    background-color: $turquoise-green;
+    color: $outer-space;
+  }
 }

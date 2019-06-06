@@ -1,5 +1,8 @@
 .navigation {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .navigation__logo {
@@ -8,10 +11,15 @@
 
 .navigation__links {
   a {
-    color: $black;
+    color: $spanish-gray;
     font-size: $medium;
     margin: 20px;
     font-family: $mono;
+    text-decoration: none;
+
+    &:hover {
+      color: $black;
+    }
   }
 }
 

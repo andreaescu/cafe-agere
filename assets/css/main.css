@@ -9727,8 +9727,17 @@ h3 {
   font-family: "Roboto", sans-serif;
 }
 
+h4 {
+  font-size: 30px;
+  color: #000000;
+  font-family: "PT Mono", monospace;
+}
+
 .navigation {
-  margin-top: 50px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
 }
 
 .navigation__logo {
@@ -9736,10 +9745,14 @@ h3 {
 }
 
 .navigation__links a {
-  color: #000000;
+  color: #989797;
   font-size: 16px;
   margin: 20px;
   font-family: "PT Mono", monospace;
+  text-decoration: none;
+}
+.navigation__links a:hover {
+  color: #000000;
 }
 
 .principal__img {
@@ -9749,6 +9762,14 @@ h3 {
 
 .principal__txt {
   float: right;
+  margin-right: 80px;
+}
+
+.description__decoration-1 {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: #E4572E;
 }
 
 .btn {
@@ -9757,9 +9778,22 @@ h3 {
   margin: 10px;
 }
 
+.btn-outline-dark {
+  border-color: #989797;
+  color: #989797;
+}
+.btn-outline-dark:hover {
+  background-color: #FFF;
+  color: #000000;
+}
+
 .bg-agere {
   background-color: #4CA866;
   color: #FFF;
+}
+.bg-agere:hover {
+  background-color: #9DCFAB;
+  color: #454545;
 }
 
 /*# sourceMappingURL=main.css.map */

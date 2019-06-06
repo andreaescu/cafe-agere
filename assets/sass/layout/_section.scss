@@ -6,4 +6,12 @@
 
 .principal__txt {
   float: right;
+  margin-right: 80px;
+}
+
+.description__decoration-1 {
+  display: inline-block;
+  height: 100px;
+  width: 100px;
+  background-color: $flame;
 }
