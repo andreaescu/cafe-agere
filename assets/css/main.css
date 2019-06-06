@@ -9742,9 +9742,21 @@ h3 {
   font-family: "PT Mono", monospace;
 }
 
+.principal__img {
+  width: 899px;
+  height: 440px;
+}
+
+.principal__txt {
+  float: right;
+}
+
 .btn {
   border-radius: 0;
   font-family: "PT Mono", monospace;
+  margin: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .bg-agere {
