@@ -9,9 +9,41 @@
   margin-right: 80px;
 }
 
+.description {
+  color: $white;
+}
+
+.description__text {
+  display: block;
+  background-color: $white;
+  position: relative;
+  left: 415px;
+  bottom: 100px;
+  height: 135px;
+  width: 455px;
+}
+
+.description__decoration-2 {
+  display: inline-block;
+  height: 140px;
+  width: 135px;
+  background-color: $flame;
+  position: relative;
+  left: 730px;
+  bottom: 350px;
+}
+
 .description__decoration-1 {
   display: inline-block;
-  height: 100px;
-  width: 100px;
-  background-color: $flame;
+  height: 140px;
+  width: 135px;
+  background-color: $buff;
+  position: relative;
+  left: 900px;
+  bottom: 240px;
+}
+
+.description__paragraph {
+  font-family: $roboto;
+  font-size: $medium;
 }

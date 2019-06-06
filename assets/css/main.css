@@ -9733,6 +9733,12 @@ h4 {
   font-family: "PT Mono", monospace;
 }
 
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+
 .navigation {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -9765,11 +9771,43 @@ h4 {
   margin-right: 80px;
 }
 
+.description {
+  color: #FFF;
+}
+
+.description__text {
+  display: block;
+  background-color: #FFF;
+  position: relative;
+  left: 415px;
+  bottom: 100px;
+  height: 135px;
+  width: 455px;
+}
+
+.description__decoration-2 {
+  display: inline-block;
+  height: 140px;
+  width: 135px;
+  background-color: #E4572E;
+  position: relative;
+  left: 730px;
+  bottom: 350px;
+}
+
 .description__decoration-1 {
   display: inline-block;
-  height: 100px;
-  width: 100px;
-  background-color: #E4572E;
+  height: 140px;
+  width: 135px;
+  background-color: #F1DD7B;
+  position: relative;
+  left: 900px;
+  bottom: 240px;
+}
+
+.description__paragraph {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
 }
 
 .btn {
