@@ -1,0 +1,24 @@
+.ubication {
+  position: relative;
+  margin-left: 60px;
+  width: 400px;
+  height: 260px;
+  bottom: 280px;
+
+}
+
+.ubication__text {
+  line-height: 22px;
+  display: block;
+  clear: right;
+}
+
+.ubication__decoration {
+  height: 233px;
+  width: 470px;
+  background-color: $blue-de-france;
+  display: block;
+  position: relative;
+  left: 370px;
+  bottom: 210px;
+}
