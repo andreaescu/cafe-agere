@@ -5,7 +5,8 @@
 .principal__txt {
   float: right;
   margin-right: 150px;
-  margin-top: 50px;
+  margin-top: 30px;
+  line-height: 70px;
 }
 
 .description {
@@ -52,8 +53,9 @@ th {
   background-color: $flame;
   position: relative;
   left: 727px;
-  top: 145px;
+  top: 146px;
   text-align: center;
+  padding: 32px;
 }
 
 .description__decoration-1 {
@@ -63,7 +65,7 @@ th {
   background-color: $buff;
   position: relative;
   left: 900px;
-  top: 255px;
+  top: 240px;
 }
 
 .description__paragraph {

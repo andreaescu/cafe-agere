@@ -9773,7 +9773,8 @@ p {
 .principal__txt {
   float: right;
   margin-right: 150px;
-  margin-top: 50px;
+  margin-top: 30px;
+  line-height: 70px;
 }
 
 .description {
@@ -9820,8 +9821,9 @@ th {
   background-color: #E4572E;
   position: relative;
   left: 727px;
-  top: 145px;
+  top: 146px;
   text-align: center;
+  padding: 32px;
 }
 
 .description__decoration-1 {
@@ -9831,7 +9833,7 @@ th {
   background-color: #F1DD7B;
   position: relative;
   left: 900px;
-  top: 255px;
+  top: 240px;
 }
 
 .description__paragraph {
