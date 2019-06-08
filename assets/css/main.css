@@ -9716,7 +9716,7 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
   color: #000000;
   font-family: "PT Mono", monospace;
   margin-bottom: 20px;
@@ -9748,13 +9748,13 @@ p {
 }
 
 .navigation__logo {
-  max-width: 20%;
+  max-width: 50%;
 }
 
 .navigation__links a {
   color: #989797;
   font-size: 16px;
-  margin: 20px;
+  margin: 10px;
   font-family: "PT Mono", monospace;
   text-decoration: none;
 }
@@ -9762,18 +9762,24 @@ p {
   color: #000000;
 }
 
-.principal__img {
-  width: 899px;
+.navigation__links {
+  padding-top: 20px;
+}
+
+.principal {
   height: 440px;
 }
 
 .principal__txt {
   float: right;
-  margin-right: 80px;
+  margin-right: 150px;
+  margin-top: 50px;
 }
 
 .description {
   color: #FFF;
+  position: absolute;
+  top: 0;
 }
 
 .description__text {
@@ -9781,30 +9787,30 @@ p {
   background-color: #FFF;
   position: relative;
   left: 430px;
-  bottom: 150px;
+  top: 406px;
   height: 155px;
   width: 470px;
 }
 
 .description__decoration-2 {
   display: inline-block;
-  height: 140px;
-  width: 135px;
+  height: 150px;
+  width: 150px;
   background-color: #E4572E;
   position: relative;
-  left: 750px;
-  bottom: 400px;
+  left: 727px;
+  top: 145px;
   text-align: center;
 }
 
 .description__decoration-1 {
   display: inline-block;
-  height: 140px;
-  width: 135px;
+  height: 150px;
+  width: 150px;
   background-color: #F1DD7B;
   position: relative;
   left: 900px;
-  bottom: 300px;
+  top: 255px;
 }
 
 .description__paragraph {
@@ -9814,16 +9820,15 @@ p {
 
 .ubication {
   position: relative;
-  margin-left: 60px;
-  width: 400px;
-  height: 260px;
-  bottom: 280px;
+  margin-left: 80px;
+  width: 300px;
 }
 
 .ubication__text {
   line-height: 22px;
   display: block;
-  clear: right;
+  width: 300px;
+  margin-top: 40px;
 }
 
 .ubication__decoration {
@@ -9831,9 +9836,31 @@ p {
   width: 470px;
   background-color: #3C91E6;
   display: block;
-  position: relative;
-  left: 370px;
-  bottom: 210px;
+  position: absolute;
+  left: 350px;
+  top: -40px;
+}
+
+.ubication__img-coffee-shop {
+  width: 181%;
+  position: absolute;
+  left: 820px;
+  bottom: -93px;
+}
+
+.ubication__img-coffee-grain {
+  width: 60%;
+  transform: rotate(90deg);
+  bottom: 37px;
+  position: absolute;
+  left: 730px;
+}
+
+.ubication__img-map {
+  position: absolute;
+  width: 140%;
+  bottom: -74px;
+  left: 320px;
 }
 
 .btn {

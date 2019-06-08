@@ -1,16 +1,14 @@
 .ubication {
   position: relative;
-  margin-left: 60px;
-  width: 400px;
-  height: 260px;
-  bottom: 280px;
-
+  margin-left: 80px;
+  width: 300px;
 }
 
 .ubication__text {
   line-height: 22px;
   display: block;
-  clear: right;
+  width: 300px;
+  margin-top: 40px;
 }
 
 .ubication__decoration {
@@ -18,7 +16,29 @@
   width: 470px;
   background-color: $blue-de-france;
   display: block;
-  position: relative;
-  left: 370px;
-  bottom: 210px;
+  position: absolute;
+  left: 350px;
+  top: -40px;
+}
+
+.ubication__img-coffee-shop {
+  width: 181%;
+  position: absolute;
+  left: 820px;
+  bottom: -93px;
+}
+
+.ubication__img-coffee-grain {
+  width: 60%;
+  transform: rotate(90deg);
+  bottom: 37px;
+  position: absolute;
+  left: 730px;
+}
+
+.ubication__img-map {
+  position: absolute;
+  width: 140%;
+  bottom: -74px;
+  left: 320px;
 }

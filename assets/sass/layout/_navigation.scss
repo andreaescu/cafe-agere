@@ -6,14 +6,14 @@
 }
 
 .navigation__logo {
-  max-width: 20%;
+  max-width: 50%;
 }
 
 .navigation__links {
   a {
     color: $spanish-gray;
     font-size: $medium;
-    margin: 20px;
+    margin: 10px;
     font-family: $mono;
     text-decoration: none;
 
@@ -23,5 +23,6 @@
   }
 }
 
-.navigation__buttons {
+.navigation__links {
+  padding-top: 20px;
 }

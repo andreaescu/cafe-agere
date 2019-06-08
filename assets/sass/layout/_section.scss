@@ -1,16 +1,17 @@
-.principal__img {
-  width: 899px;
+.principal {
   height: 440px;
-
 }
 
 .principal__txt {
   float: right;
-  margin-right: 80px;
+  margin-right: 150px;
+  margin-top: 50px;
 }
 
 .description {
   color: $white;
+  position: absolute;
+  top: 0;
 }
 
 .description__text {
@@ -18,30 +19,30 @@
   background-color: $white;
   position: relative;
   left: 430px;
-  bottom: 150px;
+  top: 406px;
   height: 155px;
   width: 470px;
 }
 
 .description__decoration-2 {
   display: inline-block;
-  height: 140px;
-  width: 135px;
+  height: 150px;
+  width: 150px;
   background-color: $flame;
   position: relative;
-  left: 750px;
-  bottom: 400px;
+  left: 727px;
+  top: 145px;
   text-align: center;
 }
 
 .description__decoration-1 {
   display: inline-block;
-  height: 140px;
-  width: 135px;
+  height: 150px;
+  width: 150px;
   background-color: $buff;
   position: relative;
   left: 900px;
-  bottom: 300px;
+  top: 255px;
 }
 
 .description__paragraph {
